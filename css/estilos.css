@@ -1,0 +1,38 @@
+body{
+	min-width: 500px;
+}
+.container{
+	min-width: 85%;
+	max-width: 85%;
+}
+
+@media (min-width: 576px) { 
+#rede-social div{
+	text-align: center!important;
+}
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) { 
+
+#logotipo{
+	text-align: left!important;
+	color: red;
+}
+#rede-social div{
+	text-align: left!important;
+}
+ }
+
+@media (min-width: 1200px) { 
+	#rede-social p{
+	text-align: right!important;
+}
+#rede-social div{
+	text-align: left!important;
+}
+}
