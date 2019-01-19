@@ -1,9 +1,13 @@
 body{
 	min-width: 500px;
 }
+a:hover{
+	text-decoration: none!important;
+}
 .container{
 	min-width: 85%;
 	max-width: 85%;
+	margin: auto!important;
 }
 
 @media (min-width: 576px) { 
@@ -26,13 +30,30 @@ body{
 #rede-social div{
 	text-align: left!important;
 }
- }
+#rede-social-footer{
+	text-align: right!important;
+}
+#rodape div nav ul{
+	margin-left: 0!important;
+}
+
+}
 
 @media (min-width: 1200px) { 
 	#rede-social p{
 	text-align: right!important;
 }
+#primeira-secao div{
+	text-align: left!important;
+ }
+ #segunda-secao div{
+	text-align: left!important;
+ }
+ #terceira-secao div{
+	text-align: left!important;
+ }
 #rede-social div{
 	text-align: left!important;
 }
+
 }
